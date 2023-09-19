@@ -1,0 +1,62 @@
+.btn2 {
+  background-color: white;
+  border-radius: 150px;
+  border: 1px solid #00adee;
+  color: #00adee;
+  width: 150px;
+  height: 50px;
+  transition: 0.4s all ease;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: Avenir Arabic;
+  justify-content: left;
+  margin-top: 50px ; 
+  margin-left: 350px;
+}
+.headline h4 {
+   font-family: Avenir Arabic;
+   margin: 0 0;
+   /* text-align: left;
+   justify-content: left; */
+}
+
+
+.btn2:hover {
+  background-color: #00adee;
+  color: white;
+}
+nav {
+  margin-top: -250px;
+  display: flex;
+  font-size: 20px;
+  color: #777;
+}
+
+.content p {
+  display: flex;
+  text-align: right;
+  justify-content: left;
+  font-family: Avenir Arabic;
+  font-size: 25px;
+  font-weight: 200;
+
+  color: gray;
+  margin: 0 auto;
+}
+.section{
+  display: flex;
+}
+.headline{
+  display: flex;
+  justify-content: flex-end;
+}
+.headline img{
+  width: 20px;
+  height: 30px;
+  margin: 10px 7px;
+}
+h4{
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0 auto;
+}
