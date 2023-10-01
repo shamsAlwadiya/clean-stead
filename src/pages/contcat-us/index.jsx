@@ -2,9 +2,13 @@ import React from 'react'
 import group from '../../assests/images/group.png'
 import mask from '../../assests/images/mask.png';
 import './style.css';
+// import Header from '../../common/siteLayout/Header';
+// import Footer from '../../common/siteLayout/Footer'
 
 const content = () => {
   return (
+  
+  <>
 
     <div className="section">
       <div className="image">
@@ -49,6 +53,8 @@ const content = () => {
       </div>
 
     </div>
+  
+    </>
   )
 }
 export default content;

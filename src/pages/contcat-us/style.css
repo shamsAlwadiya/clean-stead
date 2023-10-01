@@ -11,8 +11,9 @@
   font-family: Avenir Arabic;
   justify-content: left;
   margin-top: 30px;
-  margin-left: 350px;
+  margin-left: 370px;
   font-family: Avenir Arabic;
+
 }
 .headline h5 {
   font-family: Avenir Arabic;
@@ -118,8 +119,8 @@ label {
   justify-content: flex-end;
 }
 .nameandphone input {
-  width: 85%;
-  margin-right: 50px;
+  width: 86%;
+  margin-right: 60px;
   
 }
 .nameandphone label {

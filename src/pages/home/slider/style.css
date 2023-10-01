@@ -1,0 +1,60 @@
+.row {
+  background: #e5f7fd;
+  border: 1px;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 1040px;
+  height: 500px;
+  margin-top: 50px;
+  font-family: Avenir Arabic;
+  background-image: url('../../../assests/images/slider.png');
+}
+
+
+
+.row span {
+  color: #8fc930;
+}
+h4 {
+  color: #1d1d35;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 70px;
+}
+p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 46px;
+  text-align: right;
+  font-family: Avenir Arabic;
+  color: rgba(125, 126, 130, 1);
+  width: 385px;
+
+
+
+
+
+}
+.contactUs {
+  color: black;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 150px;
+  border: 1px solid white;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 31px;
+  text-align: center;
+  font-family: Avenir Arabic;
+  margin-top: 20px;
+}
+
+.content-home{
+   position: relative;
+   width: 400px;
+   text-align: right;
+   float: right;
+ 
+   
+}

@@ -1,16 +1,16 @@
 import React from 'react'
 import './style.css'
-import image1 from '../../assests/images/image 1.png'
-import facebook from '../../assests/images/facebook.png';
-import twitter from '../../assests/images/twitter.png'
-import youtube from '../../assests/images/youtube.png'
-import whatsapp from '../../assests/images/whatsapp.png'
-import instagram from '../../assests/images/instagram.png'
-import gmail from '../../assests/images/gmail.png'
-import phone from '../../assests/images/Phone_duotone.png'
-import email from '../../assests/images/Message_duotone.png'
-import map from '../../assests/images/map.png'
-import location from '../../assests/images/location.png'
+import image1 from '../../../assests/images/image 1.png'
+import facebook from '../../../assests/images/facebook.png';
+import twitter from '../../../assests/images/twitter.png'
+import youtube from '../../../assests/images/youtube.png'
+import whatsapp from '../../../assests/images/whatsapp.png'
+import instagram from '../../../assests/images/instagram.png'
+import gmail from '../../../assests/images/gmail.png'
+import phone from '../../../assests/images/Phone_duotone.png'
+import email from '../../../assests/images/Message_duotone.png'
+import map from '../../../assests/images/map.png'
+import location from '../../../assests/images/location.png'
 
 export const footer = () => {
   return (
@@ -43,6 +43,7 @@ export const footer = () => {
         </div>
         <div className="column">
           <h4> تواصل معنا</h4>
+
           <a href="/resourses">
             <p>0592700722
               <span><img src={phone} alt="" /></span>
@@ -57,6 +58,7 @@ export const footer = () => {
         </div>
         <div className="column">
           <h4> خدماتنا</h4>
+          
           <a href="/employer">
             <p>تنظيف المنازل</p>
           </a>

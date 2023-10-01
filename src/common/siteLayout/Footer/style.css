@@ -4,7 +4,7 @@
   border: 1px;
   border-radius: 20px;
   margin: 0 auto;
-  width: 100%;
+  width: 96%;
   height: auto;
   margin-top: 50px;
 }
@@ -14,15 +14,10 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  width: 90%;
+  width: 55%;
 }
 
-.column {
-  width: 20%;
-  justify-content: flex-start;
-  display: flex;
-  flex-direction: column;
-}
+
 .socialMedia {
   display: flex;
   flex-direction: row;
@@ -40,6 +35,7 @@ a {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  margin-right: 0px;
 }
 .location-map .map img {
   width: 169px;
@@ -79,6 +75,7 @@ a .socialMedia img {
 .column a p {
   display: flex;
   margin: 5px auto;
+
 }
 
 .column h5 {
@@ -95,9 +92,9 @@ a .socialMedia img {
   width: 42px;
   height: 42px;
 }
-.column a p {
+/* .column a p {
   display: flex;
-}
+} */
 .column p {
   font-size: 12px;
   line-height: 15px;
@@ -144,5 +141,11 @@ div.footer {
 }
 .cleanstead p {
   color: gray;
-  width: 600;
+  width: 300px;
+}
+.column {
+  width: 45%;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
 }

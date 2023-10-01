@@ -31,14 +31,18 @@ nav {
   font-size: 20px;
   color: #777;
 }
+.section .content{
+  margin-top: 20px;
+}
 
 .content p {
   display: flex;
   text-align: right;
   justify-content: left;
   font-family: Avenir Arabic;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
+  width: 500px;
 
   color: gray;
   margin: 0 auto;

@@ -1,0 +1,99 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients {
+  font-family: Avenir Arabic;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.clients p {
+  font-family: Avenir Arabic;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 31px;
+  text-align: center;
+}
+.clients h6 {
+  font-family: Avenir Arabic;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 0px;
+  text-align: center;
+}
+.client1 {
+  width: 367px;
+  height: 319px;
+  top: 2478.78px;
+  left: 536.19px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 173, 238, 0.1);
+}
+.client1 p {
+  width: 300px;
+}
+.client2 p {
+  width: 300px;
+}
+.client3 p {
+  width: 300px;
+}
+
+.client1 .up-icon img{
+  margin-top: 0px;
+  /* margin-right: 142px; */
+  display: flex;
+}
+.client2 .up-icon img{
+  margin-top: 30px;
+  /* margin-right: 142px; */
+  display: flex;
+}
+.client3 .up-icon img{
+  margin-top: 30px;
+  /* margin-right: 142px; */
+  display: flex;
+}
+.client1 .down-icon img{
+  
+
+  display: flex;
+}
+.client2 .down-icon img{
+
+  display: flex;
+}
+.client3 .down-icon img{
+
+  display: flex;
+}
+.client1 .down-icon {
+  text-align: -webkit-right;
+
+}
+.client2 .down-icon {
+  text-align: -webkit-right;
+
+}
+.client3 .down-icon {
+  text-align: -webkit-right;
+
+}
+.client2 {
+  width: 367px;
+  height: 319px;
+  top: 2478.78px;
+  left: 536.19px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 173, 238, 0.1);
+}
+.client3 {
+  width: 367px;
+  height: 319px;
+  top: 2478.78px;
+  left: 536.19px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 173, 238, 0.1);
+}

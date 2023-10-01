@@ -1,0 +1,87 @@
+.col1-service-type {
+  display: flex;
+  justify-content: space-between;
+}
+.service-type {
+  width: 370px;
+  height: 268.3px;
+  margin-bottom: 50px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 173, 238, 0.1);
+  border-radius: 25px;
+}
+
+.service-type .image-service-type img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-left: 250px;
+  display: flex;
+}
+.service-type h5 {
+  width: 110px;
+  height: 31px;
+  font-family: Avenir Arabic;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 31px;
+  text-align: right;
+  color: (48, 60, 56, 1);
+}
+.service-type .service-type-description p {
+  width: 320px;
+  height: 62px;
+  font-family: Avenir Arabic;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(109, 110, 113, 1);
+  display: flex;
+  margin-right: 4px;
+  padding: 0 5px;
+}
+.service-type .service-type-description {
+  display: flex;
+}
+.service-type .service-type-description img {
+  width: 1px;
+  height: 50px;
+  color: rgba(143, 201, 48, 1);
+  margin-top: 20px;
+}
+/* .see-more {
+  font-family: Avenir Arabic;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 0px;
+  color: rgba(0, 173, 238, 1);
+
+}
+.see-more {
+ 
+  text-align:right;
+  justify-content: right;
+}
+.see-more img {
+  width: 10px;
+  height: 14px;
+  border: 1.5px;
+  text-align: right;
+  justify-content: right;
+}
+
+.see-more h5{
+  text-align: right;
+  justify-content: right;
+  margin: 0 35px 0 0;
+} */
+.service-type h6 {
+  font-family: Avenir Arabic;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 0px;
+  color: rgba(0, 173, 238, 1);
+  margin-top:10px ;
+  margin-left: 10rem;
+}
