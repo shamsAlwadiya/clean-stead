@@ -36,7 +36,7 @@ export const Home = () => {
       <CleanService />
       <WhyChooseUs />
       <ClientSays />
-
+      <Footer/>
     </>
   )
 }

@@ -8,13 +8,14 @@ import ContactUs from './pages/contcat-us'
 import Home from './pages/home'
 import Service from './pages/services';
 import SiteLayout from './common/siteLayout';
+import footer from './common/siteLayout/Footer';
 
 function App() {
   return (
     <BrowserRouter>
     <main>
       <Routes>
-        <Route index element={<SiteLayout><Home/></SiteLayout>}></Route>
+        <Route index element={<Home/> }></Route>
         <Route path='about' element={<SiteLayout><About/></SiteLayout>} ></Route>
         <Route path='contact' element={<SiteLayout><ContactUs/></SiteLayout>}></Route>
         <Route path='services' element={<SiteLayout><Service/></SiteLayout>}></Route>

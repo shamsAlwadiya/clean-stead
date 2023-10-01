@@ -43,22 +43,24 @@ export const footer = () => {
         </div>
         <div className="column">
           <h4> تواصل معنا</h4>
+          <div className="contact-us-details">
+            <a href="/resourses">
+              <p>0592700722
+                <span><img src={phone} alt="" /></span>
+              </p>
+            </a>
+            <a href="/resourses">
+              <p>eng.mohammadalhabil@gmail.com
+                <span><img src={email} alt="" /></span>
+              </p>
+            </a>
+          </div>
 
-          <a href="/resourses">
-            <p>0592700722
-              <span><img src={phone} alt="" /></span>
-            </p>
-          </a>
-          <a href="/resourses">
-            <p>eng.mohammadalhabil@gmail.com
-              <span><img src={email} alt="" /></span>
-            </p>
-          </a>
 
         </div>
         <div className="column">
           <h4> خدماتنا</h4>
-          
+
           <a href="/employer">
             <p>تنظيف المنازل</p>
           </a>
