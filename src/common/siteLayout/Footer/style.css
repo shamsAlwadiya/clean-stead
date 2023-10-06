@@ -7,75 +7,12 @@
   width: 96%;
   height: auto;
   margin-top: 50px;
+ 
 }
 
-.footer-columns {
+.footer-column {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-
-  width: 55%;
-}
-
-
-.socialMedia {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.column map {
-  width: 40px;
-}
-a {
-  color: rgb(175, 175, 179);
-  text-decoration: none;
-}
-
-.location-map {
-  display: flex;
-  flex-direction: row;
-  margin-top: 10px;
-  margin-right: 0px;
-}
-.location-map .map img {
-  width: 169px;
-  height: 72px;
-  border-radius: 16px;
-  margin-top: 50px;
-  align-items: center;
-}
-.location-map .location img {
-  width: 24px;
-  height: 24px;
-  margin-top: 75px;
-}
-a .socialMedia img {
-  margin-top: 5px;
-  width: 18px;
-  height: 17px;
-}
-.column h4 {
-  color: black;
-  font-family: Avenir Arabic;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 25px;
-  text-align: right;
-  justify-content: right;
-  margin: auto 0;
-}
-.column p {
-  text-align: left;
-  justify-content: flex-end;
-}
-.column p span img {
-  width: 25px;
-  height: 25px;
-}
-.column a p {
-  display: flex;
-  margin: 5px auto;
-
+  justify-content:center;
 }
 
 .column h5 {
@@ -87,14 +24,14 @@ a .socialMedia img {
   text-align: center;
   margin: 0 auto;
   justify-content: flex-end;
+  display: flex;
+  margin-left: 140px;
 }
 .column h5 img {
   width: 42px;
   height: 42px;
 }
-/* .column a p {
-  display: flex;
-} */
+
 .column p {
   font-size: 12px;
   line-height: 15px;
@@ -143,9 +80,78 @@ div.footer {
   color: gray;
   width: 300px;
 }
-.column {
-  width: 45%;
-  justify-content: flex-start;
+.service-column {
+  display: inline-block;
+  /* width: 70%; */
+}
+.column h5 {
+  margin-right: 50px;
+}
+.service-column p {
+  font-family: Avenir Arabic;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.clean-stead-logo {
+  font-family: Avenir Arabic;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 47px;
+  margin-left: 20px;
+}
+.clean-stead-logo h5 {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+}
+.clean-stead-logo img {
+  width: 42.56px;
+  height: 43.4px;
+}
+.services-types a{
+  text-decoration: none;
+}
+.service-column {
+  width: 35%;
+  direction: rtl;
+}
+.service-column .social-media a img {
+  padding: 0 4px;
+  margin-bottom: 35px;
+
+}
+.service-column .social-media a{
+  align-items: center;
+}
+.service-column h3 {
+  font-family: Avenir Arabic;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.contactus-phone {
+  display: flex;
+}
+.contactus-phone img {
+  width: 30px;
+  height: 45px;
+}
+
+.contactus-email {
+  display: flex;
+}
+.contactus-email img {
+  width: 30px;
+  height: 45px;
+}
+
+.map-location {
+  display: flex;
+}
+.map-location .location img {
+  margin-top: 46px;
 }

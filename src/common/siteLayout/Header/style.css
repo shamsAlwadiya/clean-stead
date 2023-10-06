@@ -1,7 +1,7 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-family: Avenir Arabic;
   padding: 40px 0;

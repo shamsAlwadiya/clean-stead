@@ -1,6 +1,6 @@
 .col1-service-type {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .service-type {
   width: 370px;

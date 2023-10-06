@@ -1,5 +1,6 @@
 .why-choose-us {
   display: flex;
+justify-content: center;
 }
 .teamCleaning img {
   width: 570px;
